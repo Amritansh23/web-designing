@@ -1,0 +1,24 @@
+header{
+    background-color: black;
+    color: white;
+}
+.header{
+    text-align:center;
+    color: white;
+}
+img{
+    text-align: center;
+    justify-content: center;
+    width: 300px;
+    height: 500px;
+}
+p{
+    text-align: center;
+}
+footer{
+    background-color: red;
+}
+div{
+    color: white;
+    text-align: center;
+}
