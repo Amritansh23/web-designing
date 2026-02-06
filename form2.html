@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Form</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            font-size: large;
+        }
+
+        .container{
+            width: 600px;
+            background-color: green;
+            margin: auto;
+            padding: 20px;
+            border: 2px solid black;
+        }
+
+        h2{
+            text-align: center;
+            background-color: rgb(119, 235, 119);
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+
+        .box{
+            width: 100%;
+            background-color: rgb(119, 235, 119);
+            margin-bottom: 10px;
+            padding: 10px;
+        }
+
+        input, select, textarea{
+            width: 100%;
+            padding: 5px;
+            margin-top: 5px;
+        }
+
+        .gender input{
+            width: auto;
+        }
+
+        button{
+            width: 100%;
+            padding: 10px;
+            background-color: antiquewhite;
+            font-size: large;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Student Form</h2>
+
+    <div class="box">
+        Name
+        <input type="text">
+    </div>
+
+    <div class="box">
+        Age
+        <input type="number">
+    </div>
+
+    <div class="box gender">
+        Gender
+        <br>
+        <input type="radio" name="g"> Male
+        <input type="radio" name="g"> Female
+    </div>
+
+    <div class="box">
+        Class
+        <input type="text">
+    </div>
+
+    <div class="box">
+        Contact No
+        <input type="tel">
+    </div>
+
+    <div class="box">
+        Email
+        <input type="email">
+    </div>
+
+    <div class="box">
+        Area of Interest
+        <textarea rows="3"></textarea>
+    </div>
+
+    <button>Submit</button>
+</div>
+
+</body>
+</html>
